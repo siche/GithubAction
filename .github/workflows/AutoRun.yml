@@ -31,3 +31,9 @@ jobs:
       run: |
         # stop the build if there are Python syntax errors or undefined names
         python ./test.py
+    - name: Git Commit
+      run: |
+        # commit png to git
+        git add ./test.png
+        git commit -m "auto add"
+        git push
