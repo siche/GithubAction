@@ -32,7 +32,7 @@ jobs:
         # stop the build if there are Python syntax errors or undefined names
         python ./test.py
     
-    - name: git initializa
+    # - name: git initializa
     - name: Git Commit
       run: |
         # commit png to git
